@@ -1,5 +1,4 @@
 <?php
-//$AdatBazis = mysqli_connect("mysql.rackhost.hu", "c35761reucov", "@3#hZ1A9", "c35761szellaStat"); //adatbázis helye, adatbázis tulaj neve, jelszó, az adatbázis neve
 $AdatBazis = mysqli_connect("localhost", "root", "", "statisztika"); //adatbázis helye, adatbázis tulaj neve, jelszó, az adatbázis neve
 $Url = $_SERVER['REQUEST_URI']; //Url lekérése, melyik oldalon van a felhazsnálónk
 $IP_Cim = $_SERVER['REMOTE_ADDR']; //A felhasználó IP címét kéri le
